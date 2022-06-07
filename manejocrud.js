@@ -34,6 +34,7 @@ function mostrarCupon(){
 		for(var y=0; y<matriz[x].length;y++){
 			alert(matriz[x][y]);
 			//document.writeln(matriz[x][y]);
+			document.getElementById("codigo").value="";
 		}
 	}
 }
