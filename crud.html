@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Administrador CUPONATIA </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- caracteres especiales ñ y acento -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link> 
+    <link rel="stylesheet" href="../CSS/stilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="manejocrud.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../img/logo-white.png" alt="logo CUPPON" class="logo-nav"
+                style="width:20%;"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse col-3" id="navbarNav">
+                <ul class="navbar-nav justify-content-end font-weight-light">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="paginas/fromulario.html">Contactar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tienda</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="admin/crud.html">Admin</a>
+                    </li>
+
+            </div>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <h3> Administrador CUPONATIA </h3>
+
+    <table border="1" align="center">
+        <tr>
+            <br>
+            <td colspan="4">
+                <center>  Manejo De Cupones </center>
+                <table align="center">
+                    <tr>
+                        <td>
+
+                            <form name="miform" method="post" action="">
+
+                                <fieldset>
+                                    <legend><strong>Datos </strong></legend>
+
+                                    <label for="codigo">Codigo</label> <br>
+                                    <input name="codigo" id="codigo" size="50" maxlength="250" type="text"><br><br>
+
+                                    <label for="nombre">Nombre</label> <br>
+                                    <input name="nombre" id="nombre" size="50" maxlength="250" type="text"><br><br>
+
+                                    <label for="descripcion">Descripción</label> <br>
+                                    <input name="descripcion" id="descripcion" size="50" maxlength="250" type="text"><br><br>
+
+                                    <label for="precio">Precio $</label>
+                                    <input size="5" id="precio" name="precio" type="text"> 
+
+                                    <label for="stok">Stok</label>
+                                    <input size="5" id="stok" name="stok" type="text"> 
+
+                                </fieldset>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" onclick="ingresarCupon()" value="Ingresar Cupon">
+            </td>
+            <td>
+                <input type="button" onclick="mostrarCupon()" value="Mostrar Cupon">
+            </td>
+            <td>
+                <input type="button" onclick="actualizarCupon()" value="Actualizar Precio Cupon">
+            </td>
+            <td>
+                <input type="button" onclick="actualizarStokCupon()" value="Actualizar Stok Cupon">
+            </td>
+            <td>
+                <input type="button" onclick="eliminarCupon()" value="Eliminar Cupon">
+            </td>
+        </tr>
+        </form>
+    </table>
+    <foter>
+		<div class="container text-center my-2">
+			<img src="../img/logo-black.png" alt="logo cupon black" class="logo-footer pt-2">
+			<p class="p-1 font-weight-light">© 2022 CUPONATIA CHILE .Todos los derechos reservados.</p>
+		</div>
+	</footer>
+</body>
+</html>

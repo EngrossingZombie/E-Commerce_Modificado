@@ -1,0 +1,50 @@
+.styled {
+  border: 1;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+table
+{
+  background-color:rgb(46, 171, 75);
+  border-radius: 15px;
+   
+}
+
+body {
+  font-family: "Lobster", cursive;
+  background-color: rgb(32, 113, 120);
+}
+
+.logo-nav {
+  width: 9em;
+}
+
+.logo-footer {
+  width: 7em;
+}
+
+footer p {
+  color: #383838;
+  font-size: 1rem;
+}
+
+i {
+  color: #707070;
+}
+
+h5 {
+  color: #212529;
+}
+
+.row p {
+  color: #707070;
+}
+
+.location p {
+  font-size: 0.8125rem;
+}
+
+.precio-size {
+  font-size: 1.25rem;
+}
