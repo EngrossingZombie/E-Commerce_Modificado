@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="UTF-8"> 
-    <link rel="stylesheet" href="CSS/estilo.css"> 
-    <link rel="stylesheet" href="carrito.js">
-    <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap-reboot.min.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
-    <title>Formulario de Contacto</title>
-  </head>
-  <body>
-    <p class="titulo"><B>Contacta con nosotros</B></p>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link rel="stylesheet" href="carrito.js">
+  <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap-reboot.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <title>Formulario de Contacto</title>
+</head>
 
-    <form class="elegante" action="contacto.php" method ="post">
-      <fieldset>
-       <legend> ¿Quieres mas Información? </legend> 
-       <table>
+<body>
+  <p class="titulo"><B>Contacta con nosotros</B></p>
+
+  <form class="elegante" action="contacto.php" method="post">
+    <fieldset>
+      <legend> ¿Quieres mas Información? </legend>
+      <table>
         <tr>
           <td><label for="Nombre">Nombre:</label></td>
-          <td><input type="text" size="30" name="nombre"></td> 
+          <td><input type="text" size="30" name="nombre"></td>
         </tr>
-     
+
         <tr>
           <td><label for="email">Email:</label></td>
-          <td><input type="email" size="30" name="email"></td> 
-        </tr>  	
-   
+          <td><input type="email" size="30" name="email"></td>
+        </tr>
+
       </table>
     </fieldset>
 
     <fieldset>
       <legend> Opciones </legend>
       <label for="opcion">Quieres recibir información de:
-        <input type="checkbox" name="info1" value="Internet">Hoteles 
+        <input type="checkbox" name="info1" value="Internet">Hoteles
         <input type="checkbox" name="info2" value="Programacion">Restaurantes
         <input type="checkbox" name="info3" value="Sistema Operativo">Centros de Eventos
         <input type="checkbox" name="info4" value="Ofimatica">Viajes
- 
+
         <label for="pregunta1">¿Quieres recibir información en tu Correo?</label>
         <input type="radio" name="intercasa" value="si">Sí
         <input type="radio" name="intercasa" value="no">No
-   
+
         <label for="opinion">Dejanos tus Comentarios</label>
-        <textarea name="opinion" rows="5" cols="70"></textarea> 
+        <textarea name="opinion" rows="5" cols="70"></textarea>
     </fieldset>
 
     <fieldset>
@@ -51,4 +52,5 @@
     </fieldset>
   </form>
 </body>
+
 </html>

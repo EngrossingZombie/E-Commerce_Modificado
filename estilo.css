@@ -1,56 +1,48 @@
-
-body table
-{
+body table {
 	font-family: 'Lobster', cursive;
-	font-size:20px;
-	color:white;	
+	font-size: 20px;
+	color: white;
 }
 
-body
-{
-	background-color:rgb(32, 113, 120);
-	width:1000px;
+body {
+	background-color: rgb(32, 113, 120);
+	width: 1000px;
 }
 
-.titulo
-{
+.titulo {
 	font-family: 'Lobster', cursive;
-	font-size:20px;
-	border-bottom:solid;
-	padding-bottom:10px;
-	border-width:1px;
-	margin-left:120px;
+	font-size: 20px;
+	border-bottom: solid;
+	padding-bottom: 10px;
+	border-width: 1px;
+	margin-left: 120px;
 }
 
-.elegante
-{
+.elegante {
 	font-family: 'Lobster', cursive;
-	color:white;
-	border-radius:20px;
+	color: white;
+	border-radius: 20px;
 	padding: 40px 40px 100px;
-	margin-top:25px;
-	background-color:rgb(46, 171, 75);	
-	margin-left:150px;
+	margin-top: 25px;
+	background-color: rgb(46, 171, 75);
+	margin-left: 150px;
 }
 
-label
-{
-	display:block;
+label {
+	display: block;
 	margin: .5em 0 0px 0;
-	font-weight:bold;
+	font-weight: bold;
 }
 
-form fieldset
-{
-	width:100%
+form fieldset {
+	width: 100%
 }
 
-.btn
-{
+.btn {
 	font-family: 'Lobster', cursive;
 	margin: 1em 0;
-	background-color:white;
-	font-weight:bolder;
-	text-shadow:1px 1px 0px white;
-	border-radius:15px;	
+	background-color: white;
+	font-weight: bolder;
+	text-shadow: 1px 1px 0px white;
+	border-radius: 15px;
 }
