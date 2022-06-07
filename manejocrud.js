@@ -58,7 +58,7 @@ function actualizarCupon(){
 }
 
 function actualizarStokCupon(){
-	//actualización de STOK por medio del codigo
+	//actualización de Stok por medio del codigo
 	var codigo=document.getElementById("codigo").value;
 	var stok=document.getElementById("stok").value;
 	
