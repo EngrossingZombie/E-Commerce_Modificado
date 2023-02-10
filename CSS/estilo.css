@@ -1,0 +1,48 @@
+body table {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: white;
+}
+
+body {
+	background-color: rgb(32, 113, 120);
+	width: 1000px;
+}
+
+.titulo {
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	border-bottom: solid;
+	padding-bottom: 10px;
+	border-width: 1px;
+	margin-left: 120px;
+}
+
+.elegante {
+	font-family: 'Lobster', cursive;
+	color: white;
+	border-radius: 20px;
+	padding: 40px 40px 100px;
+	margin-top: 25px;
+	background-color: rgb(46, 171, 75);
+	margin-left: 150px;
+}
+
+label {
+	display: block;
+	margin: .5em 0 0px 0;
+	font-weight: bold;
+}
+
+form fieldset {
+	width: 100%
+}
+
+.btn {
+	font-family: 'Lobster', cursive;
+	margin: 1em 0;
+	background-color: white;
+	font-weight: bolder;
+	text-shadow: 1px 1px 0px white;
+	border-radius: 15px;
+}
